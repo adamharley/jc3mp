@@ -12,4 +12,4 @@ VOLUME /jc3mp/logs
 VOLUME /jc3mp/plugins
 
 WORKDIR /jc3mp
-CMD ["Server"]
+CMD ["./Server"]
