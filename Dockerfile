@@ -9,7 +9,7 @@ EXPOSE 4203/tcp
 
 VOLUME /jc3mp/dumps
 VOLUME /jc3mp/logs
-VOLUME /jc3mp/plugins
+VOLUME /jc3mp/packages
 
 WORKDIR /jc3mp
 CMD ["./Server"]
