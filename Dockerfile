@@ -7,5 +7,9 @@ RUN steamcmd +login anonymous +force_install_dir /jc3mp +app_update 619960 valid
 EXPOSE 4200-4202/udp
 EXPOSE 4203/tcp
 
+VOLUME /jc3mp/dumps
+VOLUME /jc3mp/logs
+VOLUME /jc3mp/plugins
+
 WORKDIR /jc3mp
 CMD ["Server"]
